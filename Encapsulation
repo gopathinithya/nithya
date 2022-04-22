@@ -1,0 +1,61 @@
+package mypackage;
+
+public class Employee 
+{
+private String name;
+private String email;
+private int Id;
+private int salary;
+private int age;
+public String getname()
+{
+	return name;
+}
+public void setname(String name)
+{
+	this.name=name;
+}
+public String getemail()
+{
+	return email;
+}
+public void setemail(String email)
+{
+	this.email=email;
+}
+public int getId()
+{
+	return Id;
+}
+public void setId(int Id)
+{
+	this.Id=Id;
+}
+public int getsalary()
+{
+	return salary;
+}
+public void setsalary(int salary)
+{
+	this.salary=salary;
+}
+public int getage()
+{
+	return age;
+}
+public void setage(int age)
+{
+	this.age=age;
+}
+	public static void main(String[] args)
+	{
+		Employee emp=new Employee();
+		emp.setname("Saavan");
+		emp.setemail("saavan29@gmail.com");
+		emp.setId(200);
+		emp.setsalary(100000);
+		emp.setage(20);
+		System.out.println(emp.getname()+"\n"+emp.getemail()+"\n "+emp.getId()+"\n "+emp.getsalary()+"\n "+emp.getage());
+		
+	}
+}
