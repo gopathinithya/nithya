@@ -4,7 +4,7 @@ public class Employee
 {
 private String name;
 private String email;
-private int Id;
+private int id;
 private int salary;
 private int age;
 public String getname()
@@ -23,13 +23,13 @@ public void setemail(String email)
 {
 	this.email=email;
 }
-public int getId()
+public int getid()
 {
-	return Id;
+	return id;
 }
-public void setId(int Id)
+public void setId(int id)
 {
-	this.Id=Id;
+	this.id=id;
 }
 public int getsalary()
 {
@@ -52,10 +52,10 @@ public void setage(int age)
 		Employee emp=new Employee();
 		emp.setname("Saavan");
 		emp.setemail("saavan29@gmail.com");
-		emp.setId(200);
+		emp.setid(200);
 		emp.setsalary(100000);
 		emp.setage(20);
-		System.out.println(emp.getname()+"\n"+emp.getemail()+"\n "+emp.getId()+"\n "+emp.getsalary()+"\n "+emp.getage());
+		System.out.println(emp.getname()+"\n"+emp.getemail()+"\n "+emp.getid()+"\n "+emp.getsalary()+"\n "+emp.getage());
 		
 	}
 }
