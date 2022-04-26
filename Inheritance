@@ -2,13 +2,13 @@ package mypackage;
 
  class Triangle1 
 {
-int l=10;
-int b=28;
-int h=2;
+int length=10;
+int breadth=28;
+int height=2;
 int area;
 void area()
 {
-	area=(1/2)*b*h;
+	area=(1/2)*breadth*height;
 	System.out.println("Area of Triangle is:"+area);
 }
 }
@@ -18,7 +18,7 @@ void area()
 	 int perimeter;
  void perimeter()
  {
-	 perimeter=l+b+h;
+	 perimeter=length+breadth+height;
 		System.out.println("Perimeter of Triangle is:"+perimeter);
  }
 }
