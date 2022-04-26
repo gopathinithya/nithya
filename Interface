@@ -1,31 +1,31 @@
 package mypackage;
 
- interface Vehicle1 
+ Interface Vehicle1 
 {
 int speed=150;
-int Time=5;
+int time=5;
  void distance();
 }
- interface Vehicle2
+ Interface Vehicle2
 {
 	int distance=25;
-	int time=9;
+	int time1=9;
     void speed();
 }
 class Vehicle implements Vehicle1,Vehicle2
 {
 	 public void distance()
 	{
-		System.out.println("Distance of vehicle is:"+(speed*Time));
+		System.out.println("Distance of vehicle is:"+(speed*time));
 	}
 	public void speed()
 	{
-		System.out.println("Speed of vehicle is:"+(distance/time));
+		System.out.println("Speed of vehicle is:"+(distance/time1));
 	}
 	public static void main(String[] args)
 	{
-		Vehicle v=new Vehicle();
-		v.distance();
-		v.speed();
+		Vehicle vehicle=new Vehicle();
+		vehicle.distance();
+		vehicle.speed();
 	}
 }
