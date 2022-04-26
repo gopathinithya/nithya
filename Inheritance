@@ -26,9 +26,9 @@ class Triangle
 {
 	public static void main(String[] args)
 	{
-		Triangle1 t1=new Triangle1();
-		Triangle2 t2=new Triangle2();
-		t1.area();
-		t2.perimeter();
+		Triangle1 triangle1=new Triangle1();
+		Triangle2 triangle2=new Triangle2();
+		triangle1.area();
+		triangle2.perimeter();
 	}
 }
